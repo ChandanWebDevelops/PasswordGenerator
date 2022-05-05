@@ -67,7 +67,6 @@ Arr.push(symbols)
 
 let password_generated = '';
 
-console.log(len)
 
 for(i=0; i<len; i++){
 Rand_num = Math.random() * Arr.length;
