@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #6335d3;
+}
+
+.header{
+  background: black;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+
+.container{
+box-shadow: 0 0 0.2em 0.2em #291f68;
+  padding: 20px;
+    border-radius: 2px;
+    margin: auto;
+    width: 350px;
+    margin-top: 69px;
+    height: 368px;
+    background: #3d1985;
+  text-align: center;
+}
+
+#log{
+  font-size: 28px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.input{
+  width: 100%;
+   margin-top: 22px;
+display: flex;
+    align-items: center;
+}
+
+.input span {
+height: 37px;
+    cursor: pointer;
+    background: #292c2e;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-family: fantasy;
+}
+
+
+.option{
+margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+}
+
+#num{
+  width: 60px;
+}
+
+
+#gene{background: #4d0bcf;
+    margin-top: 10px;
+    width: 100%;
+    height: 42px;
+    border: 2px solid #3d6def;
+    border-radius: 3px;
+    font-size: 21px;
+    color: white;
+    cursor: pointer;
+}
+
+#text{
+width: 80%;
+    height: 37px;
+    background: aliceblue;
+outline: none;
+    
+padding: 8px;
+overflow: hidden;
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .container{
+width: 298px;
+}
+
+}
